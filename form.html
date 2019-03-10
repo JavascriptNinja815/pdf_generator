@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="form_style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <h3>Enter Your Information Below</h3>
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="main_form">
+        <label class="main_label" for="client">PLEASE SELECT</label>
+        <select id="client" required>
+          <option value="" hidden>Please Select Client</option>
+          <option value="0">First Client</option>
+          <option value="1">Second Client</option>
+          <option value="2">Third Client</option>
+        </select>
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="company">CREDIT REPORT COMPANY NAME</label>
+        <select id="company">
+          <option value="" hidden>Please Select</option>
+          <option value="0">First Company</option>
+          <option value="1">Second Company</option>
+          <option value="2">Third Company</option>
+        </select>
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="report">CRA REPORT</label>
+        <input type="text" id="cra_report" name="cra_report">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="fname">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lname">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="street_no">STREET NO</label>
+        <input type="text" id="street_no" name="street_no">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="street_name">STREET NAME</label>
+        <input type="text" id="street_name" name="street_name">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="city">CITY</label>
+        <input type="text" id="city" name="city">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="state">STATE</label>
+        <input type="text" id="state" name="state">
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="address">CREDIT BUREAU & CREDIT BUREAU ADDRESS</label>
+        <textarea id="address" name="address" style="height:200px"></textarea>
+      </div>
+      <div class="main_form">
+        <label class="main_label" for="sincerely">Sincerely</label>
+        <input type="text" id="sincerely" name="sincerely">
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #1:</label>
+            <input style="width: 100%;" type="text" id="c_1">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #1 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #2:</label>
+            <input style="width: 100%;" type="text" id="c_2">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #2 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_2">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #3:</label>
+            <input style="width: 100%;" type="text" id="c_3">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #3 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_3">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #4:</label>
+            <input style="width: 100%;" type="text" id="c_4">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #4 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #5:</label>
+            <input style="width: 100%;" type="text" id="c_5">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #5 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_5">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #6:</label>
+            <input style="width: 100%;" type="text" id="c_6">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #6 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_6">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #7:</label>
+            <input style="width: 100%;" type="text" id="c_7">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #7 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_7">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #8:</label>
+            <input style="width: 100%;" type="text" id="c_8">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #8 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_8">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #9:</label>
+            <input style="width: 100%;" type="text" id="c_9">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #9 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_9">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #10:</label>
+            <input style="width: 100%;" type="text" id="c_10">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #10 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_10">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #11:</label>
+            <input style="width: 100%;" type="text" id="c_11">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #11 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_11">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #12:</label>
+            <input style="width: 100%;" type="text" id="c_12">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #12 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_12">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #13:</label>
+            <input style="width: 100%;" type="text" id="c_13">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #13 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_13">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #14:</label>
+            <input style="width: 100%;" type="text" id="c_14">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #14 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_14">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #15:</label>
+            <input style="width: 100%;" type="text" id="c_15">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #15 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_15">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #16:</label>
+            <input style="width: 100%;" type="text" id="c_16">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #16 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_16">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #17:</label>
+            <input style="width: 100%;" type="text" id="c_17">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #17 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_17">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <label class="credit_label">CREDITOR #18:</label>
+            <input style="width: 100%;" type="text" id="c_18">
+          </div>
+          <div class="col-sm-6">
+            <label class="credit_label">ACCOUNT #18 ALLEGED:</label>
+            <input style="width: 100%;" type="text" id="a_18">
+          </div>
+        </div>
+        <!-- file upload group -->
+        <div class="row">
+          <div class="col-sm-6 file_name">
+            <label>Evidence of my Proof of identification</label><br>
+            <label>(PNG, JPG, BMP etc.)</label>
+          </div>
+          <div class="col-sm-6">
+            <input type="file" name="id">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 file_name">
+            <label>Proof of residence or mailing address</label><br>
+            <label>(PNG, JPG, BMP etc.)</label>
+          </div>
+          <div class="col-sm-6">
+            <input type="file" name="id">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 file_name">
+            <label>Proof of social security number</label><br>
+            <label>(PNG, JPG, BMP etc.)</label>
+          </div>
+          <div class="col-sm-6">
+            <input type="file" name="id">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 file_name">
+            <label>Your Notarized Letter/form Here(if needed)</label><br>
+            <label>(PNG, JPG, BMP etc.)</label>
+          </div>
+          <div class="col-sm-6">
+            <input type="file" name="id">
+          </div>
+        </div>
+      </div>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+
+</html>

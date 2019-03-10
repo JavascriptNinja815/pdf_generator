@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.main_form {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25%;
+  padding: 5px;
+}
+.main_label {
+  margin: 20px;
+  font-weight: bold;
+}
+.credit_label {
+  text-align: center;
+  width: 100%;
+}
+.file_name {
+  text-align: right;
+}
